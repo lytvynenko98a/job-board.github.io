@@ -2,7 +2,7 @@ function JobBar(){
     return(
         <div id="job-bar">
             <div id="content">
-                <img id="hospital-image" alt="hospital image" src="/export/Hospitalimage.svg"></img>
+                <img id="hospital-image" alt="hospital image" src="./export/Hospitalimage.svg"></img>
                 <div id="content-text-margin">
                     <a href="next/src/App.tsx" id="job-ad-text"><span>Arbeitsmediziner/-in / Betriebsmediziner/-in (m/w/d) oder einen Arzt/eine Ärztin (m/w/d) für die Weiterbildung zum Facharzt/ zur Fachärztin für Arbeitsmedizin (m/w/d)</span></a>
                     <span id="hospital-name">
