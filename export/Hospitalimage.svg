@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="85" height="85" fill="none" viewBox="0 0 85 85">
+  <circle cx="42.5" cy="42.5" r="42.5" fill="#D8D8D8"/>
+  <mask id="a" width="85" height="85" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha">
+    <circle cx="42.5" cy="42.5" r="42.5" fill="#fff"/>
+  </mask>
+  <g mask="url(#a)">
+    <path fill="url(#b)" d="M0 0h85v85H0z"/>
+  </g>
+  <defs>
+    <pattern id="b" width="1" height="1" patternContentUnits="objectBoundingBox">
+      <use xlink:href="#c" transform="translate(-.246) scale(.00877)"/>
+    </pattern>
+  </defs>
+</svg>

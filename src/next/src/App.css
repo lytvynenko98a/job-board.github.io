@@ -1,0 +1,304 @@
+@import url('https://fonts.cdnfonts.com/css/proxima-nova-2');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.Page {
+    position: absolute;
+    width: 1920px;
+    height: 2126px;
+    left: -10px;
+    top: 0px;
+    
+    background: #FFFFFF;
+    border-radius: 8px;
+    color: #3A4562;
+}
+#content {
+    position: absolute;
+    left: 17.08%;
+    right: 42.6%;
+    top: 56px;
+    bottom: 27.17%;
+
+}
+#job-details{
+    position: absolute;
+    width: 723px;
+    height: 44px;
+    left: 0px;
+    top: 0px;
+    border-bottom: 1px solid gainsboro;
+}
+#job-details-text{
+    position: relative;
+    left: 0.14%;
+    right: 79.67%;
+    top: 0%;
+    bottom: 22.73%;
+
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 0.413333px;
+
+    color: #3A4562;
+}
+#save-to {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    height: 32px;
+    left: 64.66%;
+    right: -0.21%;
+    top: calc(50% - 32px/2 - 2px);
+}
+#save-to:hover{
+    cursor: pointer;
+}
+#btn-apply {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 18px 30px;
+    gap: 10px;
+    position: absolute;
+    left: 0%;
+    right: 83.59%;
+    top: 4.71%;
+    bottom: 92.33%;
+    align-items: center;
+    text-transform: uppercase; 
+    
+
+    /* Dark/01 */
+    
+    background: #384564;
+    border-radius: 8px;
+}
+#btn-apply span, #btn-apply2 span {
+    width: 67px;
+    height: 16px;
+
+    /* Additional/Button */
+
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+
+    text-transform: uppercase;
+  
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#btn-apply2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 18px 30px;
+    gap: 10px;
+    position: absolute;
+    left: 0%;
+    right: 83.59%;
+    top: 67.5%;
+    bottom: 92.33%;
+    align-items: center;
+    text-transform: uppercase; 
+
+    background: #384564;
+    border-radius: 8px;
+}
+#btn-apply:hover, #btn-apply2:hover {
+    cursor: pointer;
+}
+
+#card-contact {
+    position: absolute;
+    width: 402px;
+    height: 436px;
+    left: 898px;
+    top: 0px;
+
+    border-radius: 8px;
+}
+
+#job-detail{
+    position: absolute;
+    top: 9.48%;
+    bottom: 37.19%;
+}
+#job-detail #name {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    /* or 125% */
+
+    letter-spacing: -0.75px;
+}
+#job-detail #description {
+    left: -2.45%;
+    right: 0%;
+    top: 9.48%;
+    bottom: 37.19%;
+}
+#job-detail #description h5{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height, or 125% */
+
+    letter-spacing: -0.625px;
+
+    /* Text/Dark */
+
+    color: #3A4562;
+}
+#job-detail #time {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 133% */
+
+    letter-spacing: -0.5625px;
+
+    color: rgba(56, 65, 93, 0.355988);
+}
+
+#return-back {
+    position: absolute;
+    left: 12.45%;
+    right: 76.46%;
+    top: 76.84%;
+    bottom: 21.09%;
+    background: #38456452;
+    border-radius: 8px;
+}
+#return-back a {
+    text-decoration: none;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+    opacity: 1;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #3A4562;
+}
+#return-back img {
+    position: absolute;
+    right: 84.51%;
+    top: 27.23%;
+    bottom: 32%;
+}
+
+#additional-info #text{
+    position: absolute;
+    height: 34px;
+    left: 0.14%;
+    right: 72.16%;
+    top: calc(76% - 30px);
+    width: 723px;
+    border-bottom: 1px solid gainsboro;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 0.413333px;
+
+    color: #3A4562;
+}
+#additional-info p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+
+    letter-spacing: -0.5625px;
+
+    /* Text/Dark */
+
+    color: #3A4562;
+    font-stretch: 100;
+}
+
+@media only screen and (max-width: 414px){
+    .Page {
+        position: relative;
+        width: 414px;
+        height: 2547px;
+    }
+    #content {
+        position: absolute;
+        width: 384px;
+        height: 1700px;
+        left: 15px;
+        top: 24px;
+    }
+    #btn-apply, #btn-apply span {
+        display: none;
+    }
+    #job-details {
+        width: 382px;
+    }
+    #job-details-text {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 34px;
+        letter-spacing: 0.413333px;
+
+        color: #3A4562;
+    }
+    #job-detail #description {
+        width: 367px;
+    }
+    #save-to {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top:145%;
+    }
+    #btn-apply2 {
+        position: absolute;
+        left: 33.59%;
+        right: 33.33%;
+        top: 91.94%;
+        bottom: 7%;
+    }
+    #return-back {
+        display: none;
+    }
+    #additional-info #text {
+        top:100%;
+        width: 367px;
+    }
+    #card-contact {
+        position: absolute;
+        left: 0%;
+        right: 0.78%;
+        top: 116.15%;
+        bottom: 0%;
+    }
+}
